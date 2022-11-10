@@ -70,7 +70,7 @@ The automaton is a cellular automaton that contains many cells of different type
   For the `city`, the range is between 0.2 and 1 (reasonable chance of heavy rain).    
   For the `forest`, the range is between 0.3 and 1 (the humidity of the forest leads to a high chance of rain).    
   For the `sea`, the range is between 0.3 and 1 (the sea brings with it high humidity = high chance of rain).    
-  For the `iceberg`, the range is between 0 and 0.6 (low chance of rain in glacier areas **read on Wikipedia**).    
+  For the `iceberg`, the range is between 0 and 0.6 (low chance of rain in glacier areas, **read on Wikipedia**).    
   
   Accumulation of clouds of =< 0.9 will lead to dividing the future air pollution by 1.6 and a direct lowering of the temperature by 0.01 degrees.    
   An accumulation of =< 0.7 will lead to the division of future air pollution by 1.4 and a direct lowering of the temperature by 0.005 degrees.    
