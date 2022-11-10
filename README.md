@@ -72,9 +72,9 @@ The automaton is a cellular automaton that contains many cells of different type
   For the `sea`, the range is between 0.3 and 1 (the sea brings with it high humidity = high chance of rain).    
   For the `iceberg`, the range is between 0 and 0.6 (low chance of rain in glacier areas, **read on Wikipedia**).    
   
-  Accumulation of clouds of =< 0.9 will lead to dividing the future air pollution by 1.6 and a direct lowering of the temperature by 0.01 degrees.    
-  An accumulation of =< 0.7 will lead to the division of future air pollution by 1.4 and a direct lowering of the temperature by 0.005 degrees.    
-  An accumulation of =< 0.5 will lead to the division of future air pollution by 1.2 and a direct lowering of the temp by 0.002 degrees.    
+  Accumulation of clouds of =< 0.9 will lead to dividing the future air pollution by 1.6 and a direct reduction of the temperature by 0.01 degrees.    
+  An accumulation of =< 0.7 will lead to the division of future air pollution by 1.4 and a direct reduction of the temperature by 0.005 degrees.    
+  An accumulation of =< 0.5 will lead to the division of future air pollution by 1.2 and a direct reduction of the temperature by 0.002 degrees.    
   
   
   ### Daily update course:
@@ -86,13 +86,13 @@ The automaton is a cellular automaton that contains many cells of different type
   This method of operation allows us to moderate the increase of raising temperatures because if a cell is already at a high temperature at the moment,
   the degree of contamination affects it less.    
   Otherwise, the degree of air pollution is lower than that the cell will balance itself and add/subtract 0.1 degrees to itself in striving for the stable    
-  temperature defined for it. (-20 iceberg otherwise 25).    
+  temperature defined for it. (-20 `iceberg` otherwise 25).    
   Cells that reach any temperature or air pollution level first change color (an indication that the cell is changing) and after the next level change their type.    
-  • A Land will change its color to red, boiling soil, at 120 and beyond.    
-  • A city will change its color above 55 degrees and also above pollution of above 0.5 and will turn into land above 80 degrees.    
-  • A forest will change its color above 0.3 pollution level and will die and turn into land at pollution of 1 or above 60 degrees.    
-  • Sea will change its color if the temperature is above 40 and also the pollution is above 0.4 and will evaporate to the land above 100 degrees.    
-  • A iceberg will melt above 0 degrees and turn into a sea.    
+  • A `land` will change its color to red, boiling soil, at 120 and beyond.    
+  • A `city` will change its color above 55 degrees and also above pollution of above 0.5 and will turn into `land` above 80 degrees.    
+  • A `forest` will change its color above 0.3 pollution level and will die and turn into `land` at pollution of 1 or above 60 degrees.    
+  • A `Sea` will change its color if the temperature is above 40 and also the pollution is above 0.4 and will evaporate to the `land` above 100 degrees.    
+  • A `iceberg` will melt above 0 degrees and turn into a `sea`.    
   
   ## Data and conclusions
   After a number of experiments it was found that the value of the pollution factor (air pollution factor) for which the system was found to be stable
@@ -132,7 +132,7 @@ The automaton is a cellular automaton that contains many cells of different type
   `TEMPERATURE STATUS -Max= 62.48	Min= -25.00	AVG= 22.81	Std_dev= 10.66`    
   `AIR POLLUTION STATUS -Max= 1.00	Min= 0.00	AVG= 0.29	Std_dev= 0.23`    
   
-  First we will prove that for a pollution factor of **0.01** the average annual temperature was **22.6** and now when we raised the pollution factor to **0.011**, which 
+  First we will remind that for a pollution factor of **0.01** the average annual temperature was **22.6** and now when we raised the pollution factor to **0.011**, which 
   is an increase of only **10%** (percent), our global average temperature is now **22.81** which is an increase of **0.93%** ( percent) which means almost an increase of
   **1%** in the average degrees, which is a significant increase in the average temp.    
   
