@@ -152,8 +152,8 @@ The automaton is a cellular automaton that contains many cells of different type
   In conclusion, it can be clearly established that our system is sensitive to air pollution, which means that a slight change in the amount of pollution emitted causes significant
   changes in the other components of the system and raises its general temperature and ultimately causes its destruction.    
   
-  # Final conclusion: we need to protect our planet,    
-  it is too fragile.    
+  # Final conclusion:        
+  # we need to protect our planet, it is too fragile.    
   ![gif](https://media.giphy.com/media/xTiTnDtaiN5cD21tQY/giphy.gif)
 
 
