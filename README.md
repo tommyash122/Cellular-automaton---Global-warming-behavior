@@ -36,11 +36,11 @@ The automaton is a cellular automaton that contains many cells of different type
   
   #### temperature
   The number that appears on each cell represents the current temperature of that cell.    
-  Randomly determined within predetermined ranges by cell type. If our cell is a glacier then the range will be [-25,-15] else [20,30].    
+  Randomly determined within predetermined ranges by cell type. If our cell is a `iceberg` then the range will be [-25,-15] else [20,30].    
   
   #### air pollution
   We will express the degree of air pollution in percentages as a real number ranging from 0 to 1 where 0 is 0% pollution and 1 is 100% polluted. 
-  Air pollution comes exclusively from a city-type cell and each cell produces a component of **0.01 (that can be changed)**  
+  Air pollution comes exclusively from a `city` type cell and each cell produces a component of **0.01 (that can be changed)**  
   that adds to current air pollution level per day. 
   In our automaton there is an element of wind, We'll go into more detail about it later, and the same wind transmits the pollution to all the cell neighbors.  
   
