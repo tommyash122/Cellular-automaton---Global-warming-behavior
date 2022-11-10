@@ -1,8 +1,8 @@
 
 ## About
-This cellular automaton simulates a model of the Earth.
-Earth, as we know, is in a state of global warming.
-This model reflects how a small pollutant factor can have a general impact on the entire system, and how fragile this whole system is.
+This cellular automaton simulates a model of the Earth.    
+Earth, as we know, is in a state of global warming.    
+This model reflects how a small pollutant factor can have a general impact on the entire system, and how fragile this whole system is.    
 
 https://youtu.be/LI2y7nXF51g    
 Link to a short video explaining the running of the automaton with two pollution factors, viewing the outputs differences and explanation of how I get the data.
