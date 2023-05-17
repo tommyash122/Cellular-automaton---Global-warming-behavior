@@ -20,7 +20,8 @@ Link to a video that comprehensively explains the code and all its functions and
 2) files main.py and my_map.txt needs to be on the same folder.
 
 
-![gif](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjViNjMxMjhjYTcyZjViMmUzZTQyNTgzMTZiMjNmNTNlNjk4NTVlNiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/WH0nN1BTjIz4CbbzIR/giphy.gif)
+![giphy](https://github.com/tommyash122/Cellular-automaton---Global-warming-behavior/assets/84855441/11aaecc1-8405-4efd-8984-99de3d061170)
+
 
 
 ## Explanation
