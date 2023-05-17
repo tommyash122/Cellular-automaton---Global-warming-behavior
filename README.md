@@ -20,8 +20,7 @@ Link to a video that comprehensively explains the code and all its functions and
 2) files main.py and my_map.txt needs to be on the same folder.
 
 
-134th day's pic:
-![image](https://user-images.githubusercontent.com/84855441/201136668-30f81c2a-df3b-425f-a2aa-8b2f6580db67.png)
+![gif](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjViNjMxMjhjYTcyZjViMmUzZTQyNTgzMTZiMjNmNTNlNjk4NTVlNiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/WH0nN1BTjIz4CbbzIR/giphy.gif)
 
 
 ## Explanation
